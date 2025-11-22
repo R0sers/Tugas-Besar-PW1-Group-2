@@ -1,27 +1,27 @@
 const questions = [
     {
-        q: "1) Nilai dari 45 ÷ 5",
-        choices: ["A) 9", "B) 11", "C) 7"],
+        q: "1) Ada Topi di atas kulkas. Itu berarti kulkas ada di ___ topi?",
+        choices: ["A) bawah", "B) atas", "C) belakang"],
         correct: 0
     },
     {
-        q: "2) Jika 3^x = 27, maka x = ?",
-        choices: ["A) 2", "B) 3", "C) 4"],
+        q: "2) 100Kg Besi __ 100Kg Bulu. Tentukan tanda yang tepat!",
+        choices: ["A) <", "B) =", "C) >="],
         correct: 1
     },
     {
-        q: "3) Mana yang merupakan bilangan prima?",
-        choices: ["A) 21", "B) 15", "C) 17"],
+        q: "3) Jika di luar hujan, maka jalanan akan basah. Jika jalanan basah, maka mobil akan kotor. Jika di luar hujan, maka mobil akan ___?",
+        choices: ["A) Basah", "B) Hujan", "C) Kotor"],
         correct: 2
     },
     {
-        q: "4) 5 + 7 × 2 = ? (urut operasi)",
-        choices: ["A) 24", "B) 19", "C) 26"],
+        q: "4) Semua yang hidup di air adalah ikan, paus hidup di air. Maka paus adalah ikan. Pernyataan tersebut adalah ___?",
+        choices: ["A) Valid dan Empiris", "B) Valid dan tidak Empiris", "C) Valid atau Empiris"],
         correct: 1
     },
     {
-        q: "5) Suku ke-1 barisan aritmetika 3, 7, 11,... adalah?",
-        choices: ["A) 3", "B) 7", "C) 11"],
+        q: "5) X+Y = 11000 , Selisih X dan Y Adalah 10000 , jika X>Y maka nilai Y adalah?",
+        choices: ["A) 500", "B) 1000", "C) 1500"],
         correct: 0
     }
 ];
