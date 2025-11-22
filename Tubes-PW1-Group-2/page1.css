@@ -1,14 +1,52 @@
-.text h3{
+body {
     margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f4f7fc;
+    color: #222;
 }
 
-.text p{
-    margin: 3px 0;
+.topbar {
+    height: 60px;
+    background: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
 }
 
-.small {
-    font-size: 12px;
-    opacity: 0.8;
+.logo {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.icon {
+    font-size: 22px;
+}
+
+.profile-box {
+    background: white;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.pfp {
+    background: #000;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 .badge{
@@ -36,6 +74,43 @@
     margin: 25px auto;
 }
 
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    margin: 12px 0;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.red { background: linear-gradient(90deg, #6d0505, #ff4b4b); }
+.yellow { background: linear-gradient(90deg, #a86e00, #ffcc47); }
+.purple { background: linear-gradient(90deg, #5600a8, #d47aff); }
+.green { background: linear-gradient(90deg, #036d32, #4cff8f); }
+.blue { background: linear-gradient(90deg, #05426d, #47a4ff); }
+
+.level {
+    font-size: 26px;
+    font-weight: bold;
+    background: rgba(255,255,255,0.3);
+    padding: 10px 18px;
+    border-radius: 50%;
+}
+
+.text h3{
+    margin: 0;
+}
+
+.text p{
+    margin: 3px 0;
+}
+
+.small {
+    font-size: 12px;
+    opacity: 0.8;
+}
 
 button {
     padding: 8px 18px;
