@@ -1,27 +1,27 @@
 const questions = [
     {
-        q: "1) Manakah penulisan kata baku yang benar? ",
-        choices: ["A) Aktifitas", "B) Aktivitas", "C)Aktifvitas"],
-        correct: 1
-    },
-    {
-        q: "2) Lawan kata ramai adalah",
-        choices: ["A) Sepi", "B) Riuh", "C) Ramah"],
-        correct: 0
-    },
-    {
-        q: "3) Lawan kata tinggi adalah",
-        choices: ["A) Dekat", "B) Kecil", "C) Rendah"],
+        q: "1) When you meet your friend in the morning, you say…",
+        choices: ["A) Good Night", "B) Good Evening", "C) Good Morning"],
         correct: 2
     },
     {
-        q: "4) Mana ejaan yang benar",
-        choices: ["A) Praktek", "B) Praktik", "C) Prakteg"],
+        q: "2) Hello, my name is Dika. The suitable response is..",
+        choices: ["A) Thank You", "B) Nice To Meet You", "C) Okay "],
         correct: 1
     },
     {
-        q: "5) Imbuhan pada kata tertidur",
-        choices: ["A) di-", "B) ter-", "C) me-"],
+        q: "3) She.... to shcool every day.",
+        choices: ["A) Go", "B) Goes", "C) Going"],
+        correct: 1
+    },
+    {
+        q: "They... football every Sunday.",
+        choices: ["A) Oh", "B) Good", "C) Play"],
+        correct: 2
+    },
+    {
+        q: "5) What color is the sky?",
+        choices: ["A) Black", "B) Blue", "C) Rainbow"],
         correct: 1
     }
 ];
@@ -136,7 +136,7 @@ document.getElementById("report-btn").addEventListener("click", () => {
 });
 
 document.getElementById("goto").addEventListener("click", () => {
-    window.location.href = "Page1.html";
+    window.location.href = "../Page1.html";
 });
 
 render();

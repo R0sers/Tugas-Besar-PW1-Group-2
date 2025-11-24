@@ -1,27 +1,27 @@
 const questions = [
     {
-        q: "1) Nilai dari 45 ÷ 5",
-        choices: ["A) 9", "B) 11", "C) 7"],
+        q: "1) Perubahan wujud dari cair menjadi gas disebut?",
+        choices: ["A) Evaporasi", "B) Sublimasi", "C) Kondensasi"],
         correct: 0
     },
     {
-        q: "2) Jika 3^x = 27, maka x = ?",
-        choices: ["A) 2", "B) 3", "C) 4"],
+        q: "2) Energi yang tersimpan pada benda karena ketinggiannya disebut energi __?",
+        choices: ["A) Kinetik", "B) Potensial Gravitasi", "C) Massa"],
         correct: 1
     },
     {
-        q: "3) Mana yang merupakan bilangan prima?",
-        choices: ["A) 21", "B) 15", "C) 17"],
+        q: "3) Planet yang memiliki ukuran paling besar di tata surya adalah…?",
+        choices: ["A) Bumi", "B) Saturnus", "C) Jupiter"],
         correct: 2
     },
     {
-        q: "4) 5 + 7 × 2 = ? (urut operasi)",
-        choices: ["A) 24", "B) 19", "C) 26"],
+        q: "4) Alat untuk mengukur kuat arus listrik adalah… ?",
+        choices: ["A) Voltmeter", "B) Amperemeter", "C) Termometer"],
         correct: 1
     },
     {
-        q: "5) Suku ke-1 barisan aritmetika 3, 7, 11,... adalah?",
-        choices: ["A) 3", "B) 7", "C) 11"],
+        q: "5) Zat penyusun terkecil dari suatu unsur disebut?",
+        choices: ["A) Atom", "B) Molekul", "C) Proton"],
         correct: 0
     }
 ];
@@ -136,7 +136,7 @@ document.getElementById("report-btn").addEventListener("click", () => {
 });
 
 document.getElementById("goto").addEventListener("click", () => {
-    window.location.href = "Page1.html";
+    window.location.href = "../Page1.html";
 });
 
 render();

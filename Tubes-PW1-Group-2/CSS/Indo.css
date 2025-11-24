@@ -132,7 +132,7 @@ body {
 
 .secondary {
     background: transparent;
-    border: 1px solid rgba(255, 111, 156, 0.2);
+    border: 1px solid rgba(253, 255, 111, 0.2);
     color: var(--yellow1);
     padding: 8px 12px;
     border-radius: 10px;
